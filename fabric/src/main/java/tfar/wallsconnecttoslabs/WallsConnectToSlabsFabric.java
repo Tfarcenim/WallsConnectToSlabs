@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package tfar.wallsconnecttoslabs;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class WallsConnectToSlabsFabric implements ModInitializer {
     
     @Override
     public void onInitialize() {
@@ -12,7 +12,7 @@ public class ExampleMod implements ModInitializer {
         // project.
 
         // Use Fabric to bootstrap the Common mod.
-        CommonClass.LOG.info("Hello Fabric world!");
-        CommonClass.init();
+        WallsConnectToSlabs.LOG.info("Hello Fabric world!");
+        WallsConnectToSlabs.init();
     }
 }
